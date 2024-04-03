@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int operator, n1, n2;
+      
+      while (true) {
+       System.out.println("1 - Add \n2 - Subtract\n3 - Multiply\n4 - Divide \n5 - Exponentiation \n6 - Quit");
+       System.out.print("Choose operator: ");
+       operator = sc.nextInt();
+
+        if (operator == 6) {
+                System.out.println("Calculator is exiting. Goodbye!");
+                break;
+            }
+
+        System.out.print("Enter frist number: ");
+        n1 = sc.nextInt ();
+        System.out.print("Enter second number: ");
+        n2 = sc.nextInt ();
+        int result = 0; 
+
+switch (operator) {
+
+case 1:
+       result = n1 + n2;
+         break;  
+case 2:
+       result = n1 - n2;
+         break;  
+case 3:
+       result = n1 * n2;
+         break;  
+case 4:
+       result = n1 / n2;
+         break;  
+case 5:
+       result = (int) Math.pow(n1, n2);
+         break;
+    default:
+     System.out.println("Invalid choice. Please choose again.");
+     System.out.println("Enter Operator is not vaild");
+}
+     System.out.println("Result is " +result);
+}  
+     sc.close();
+}
+}
+     
