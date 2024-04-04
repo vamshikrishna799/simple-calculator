@@ -9,7 +9,7 @@ Name: gundoju vamshi krishna
 Interm ID: COD5727
 
 **Task Description:**
-The Task assigned to B Vagesh datta during the CodTech ITsolution internship program is to write a java program simple calculator with advance features,which implements a simple calculator with advanced features such as addition, subtraction, multiplication, division,exponentiation, and the option to quit.
+The Task assigned to G vamshi krishna during the CodTech ITsolution internship program is to write a java program simple calculator with advance features,which implements a simple calculator with advanced features such as addition, subtraction, multiplication, division,exponentiation, and the option to quit.
 
 **Implementation**
 the implementation of the task involves utilizing java program language to create a simple programthat interates from simplecalculator. the program uses "while" loop to achiew functionality efficienty. below is the code implementation 
